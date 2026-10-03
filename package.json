@@ -1,0 +1,24 @@
+{
+  "name": "vehicle-sim-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Realistic vehicle physics prototype (VAZ-2106) in three.js, structured for a later Unity port",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "sim": "tsx tools/scenarios.ts"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/three": "^0.186.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  }
+}
